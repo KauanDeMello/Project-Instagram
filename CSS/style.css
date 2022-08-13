@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;300;400;500;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FFFFFF;
+    font-family: 'Encode Sans', sans-serif;
+}
+
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    color: #262626;
+    line-height: 14px;
+    margin-top: 85px;
+}
+
+p > strong{
+    font-style: bold;
+    font-weight: bold;
+}
+
+.feed{
+    width: 614px;
+}
+
+.top{
+  background-color: #FFFFFF    ;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border: 1px solid #dbdbdb;
+}
+.topcontainer {
+    width: 935px;
+    height: 54px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;    ;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 140px;
+}
+
+.line{
+  width: 1px;
+  height: 22px;
+  top: 15px;
+  left: 247px;
+  background-color: #dbdbdb;  
+}
+
+
+.logo > img {
+    width: 103px;
+    height: 29px;
+}
+
+.logo > ion-icon{
+    height: 20px;
+    width: 20px;
+}
+
+.searchbox {
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.searchbox > input{
+    width: 215px;
+    height: 20px;
+    border: 2px solid #dbdbdb;
+    border-radius: 2px;
+    background-color: #fafafa;
+}
+
+.searchbox > input::placeholder{
+    font-size: 12px;
+    color: grey;
+    text-align: center;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 120px;
+}
+
+.icons > ion-icon{
+    height: 20px;
+    width: 20px;
+}
+
+.content{
+    width: 935px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.feed{
+    width: 614px;
+}
+
+.storys{
+    width: 100%;
+    height: 118px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 88px;
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    position: relative;
+}
+
+.storys >  img {
+    background-image:url(/Images/stories.svg);
+    background-size: cover;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    margin: 0 4px;
+    padding: 1%;
+    
+}
+.storys > ion-icon{
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  right: 4px;
+  border-radius: 80%;
+  padding: 0;
+  color: #dbdbdb;  
+}
+
+.posts{
+    width: 100%;
+    height: 1500px;
+    background-color: white;
+    
+}
+
+.post{
+    margin-top: 24px;
+    background-color: white;
+    width: 614px;
+    border: 1px solid #dbdbdb;
+
+}
+.toppost{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    padding: 0 10px;
+    width: 100%;
+    background-color: white;
+}
+
+.profilepost{
+    width: 32px;
+    height: 32px;
+    margin: 0 0;
+    border-radius: 50%;
+}
+
+.profiletext {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 20px;
+}
+
+.profilebox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.poster{
+    width: 100%;
+    height: 614px;
+    object-fit: cover;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+
+.Lbuttons > ion-icon{
+    height: 17px;
+    width: 17px;
+}
+
+.Rbuttons > ion-icon{
+    height: 17px;
+    width: 17px;
+}
+
+.likes{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.profilelike{
+    width: 20px;
+    height: 20px;
+    margin: 0 0;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.liketext{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #262626;
+    display: block;
+    margin-left: 5px;
+}
+
+.sidebar{
+    width: 293px;
+    height: 500px;
+    margin-top: 88px;
+    background-color: white;
+    padding: 5px;
+}
+
+.sideprofile{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.sidepic{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    margin: 0 4px;
+}
+
+.textprofile{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #262626;    
+    text-align: left;
+}
+.subtext{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #8E8E8E;
+    text-align: left;
+}
+
+.suggestbar{
+    margin-top: 10px;
+}
+
+.suggest-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 10px;
+    text-align: left;
+}
+
+span{font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    color: #8E8E8E;
+    text-align: left;
+}
+
+.vertudo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #262626;
+    text-align: left;
+}
+.suggested{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;   
+    margin: 20px 0;
+}
+
+.suggestedprofile{
+    display: flex;
+}
+
+.profilepostsuggest { 
+    width: 32px;
+    height: 32px;
+    margin: 0 0;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.p1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #262626;
+    text-align: left;
+}
+.p2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #8E8E8E;
+    text-align: left;
+}
+
+.follow{
+    font-size: 12px;
+    font-weight: 500;
+    color: #139EF2;
+
+}
+.mobile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 54px;
+    display: none;
+    background-color: white;
+  }
+
+@media (max-width: 935px) {
+    .topcontainer {
+        padding: 0 10px;
+      }
+    .sidebar {
+      display: none;
+      background-color: white;
+    }
+    .feed {
+      margin: 0 auto;
+    }
+  }
+
+  @media (max-width: 614px) {
+    .feed {
+      width: 100%;
+    }
+    .sidebar{
+        display: none;
+        background-color: white;
+    }
+    .content{
+        width: 100%;  
+    }
+    .top{
+        width: 100%;
+    }
+    .mobile{
+        display: flex;
+        justify-content: flex-end, space-between;
+    }
+    .mobile > ion-icon{
+        width: 20px;
+        height: 20px;
+    }
+  }
